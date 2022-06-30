@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <style>
+            section{
+                padding: 60px 0px;
+            }
+        </style>
         <title>Net Ninja Pro</title>
     </head>
     <body>
@@ -42,7 +47,7 @@
                         <a class="nav-link" href="#pricing">Pricing</a>
                       </li>
                       <li class="nav-item ms-2 d-none d-md-inline">
-                        <a class="btn btn-secondary" href="#pricing">buy now</a>
+                        <a class="btn btn-secondary" href="#pricing">Buy Now</a>
                       </li>
                     </ul>            
         </nav>
@@ -241,7 +246,7 @@
                                 </div>
                                 <h5 class="mb-1">A must buy for every aspiring web dev.</h5>
                                 <p class="mb-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis praesentium placeat nulla excepturi voluptate optio, ducimus quia ad eum, earum quisquam ratione expedita veritatis eveniet quis, omnis enim soluta rem?</p>
-                                <small>Review by Mario</small>
+                                <small>Review by Jiuk</small>
                             </div>
                             <div class="list-group-item py-3">
                                 <div class="pb-2">
@@ -293,6 +298,57 @@
                             </div>
                 
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2>Get in touch</h2>
+                    <p class="lead">Question to ask? Fill out the form to contact me directly...</p>
+                </div>
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-6">
+                        <form>
+                            <label for="email" class="form-label">Email address</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="e.g. jiuk@youremail.com">
+                            </div>
+                        
+                            <label for="name" class="form-label mt-2">Name</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-fill"></i>
+                                </span>
+                                <input type="name" class="form-control" id="email" placeholder="e.g. Jiuk">
+                            </div>
+                            <label for="subject" class="form-label mt-2">What is your question about?</label>
+                            <div class="mb-4 input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-chat-left-dots-fill"></i>
+                                </span>
+                                <select id="subject" class="form-select">
+                                    <option selected>Open this select menu</option>
+                                    <option value="pricing">Pricing</option>
+                                    <option value="content">Content</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-floating mb-4 mt-5">
+                                <textarea id="query" class="form-control" style="height:140px"></textarea>
+                                <label for="query" class="form-label">Your query...</label>
+                            </div>
+
+                            <div class="mb-4 text-center">
+                                <button type="submit" class="btn btn-secondary">Submit</button>
+                            </div>
+
+                        </form>        
                     </div>
                 </div>
             </div>

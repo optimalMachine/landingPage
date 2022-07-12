@@ -1,5 +1,5 @@
 # A book Landing Page project
 
-As the title above, this is frontend project using html & bootstrap5 only to create a 'responsive' landing page for Net Ninja Pro. Nodejs & Express were added for simple backend feature.
+As the title above, this is a full stack project using html & bootstrap5 only for frontend to create a 'responsive' landing page for Net Ninja Pro. Backend features using Nodejs & Express are in progress.
 
 Written by Jiuk Choi
